@@ -1,0 +1,187 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Lexend Deca',sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    overflow: hidden;
+}
+header {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:3px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #ed7d46;
+}
+header .logo{
+    position:relative;
+    max-width:100px;
+   
+}
+header ul{
+    position:relative;
+    display:flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display:inline-block;
+    color:#222;
+    font-weight: 700;
+    margin-left:40px;
+    text-decoration:none;
+}
+.content {
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width:600px;
+}
+.content .textBox h2{
+    color:#222;
+    font-size: 3em;
+    line-height:1.4em;
+    font-weight:500;
+}
+.content .textBox h2 span{
+    color:#ed7d46;
+    font-size:1.2em;
+    font-weight:900;
+}
+.sixcapital{
+    width:500;
+    height:500;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top:50px;
+    padding:8px 20px;
+    background:#ed7d46;
+    color:#fff;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content .imgBox{
+    width:600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top:60px;
+}
+.content .imgBox img{
+    max-width:400px;  
+}
+.thumb{
+    position:absolute;
+    left:50%;
+    bottom:70px;
+    transform:translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform:translateY(-15px)
+}
+.thumb li img{
+    max-width: 60px;
+}
+.mtn{
+    position:absolute;
+    top: 0;
+    left:0;
+    width:75%;
+    height:110%;
+    margin-top: 120px;
+    background-image:url("images/sunset.jpg");
+    background-position:center bottom;
+    clip-path: polygon(7% 72%, 29% 38%, 40% 51%, 70% 14%, 98% 72%);
+    margin-left: 650px;
+  
+}
+@media (max-width:991px){
+    header{
+        padding:20px;
+    }
+    header .logo{
+        max-width: 60px;
+    }
+    section{
+        padding:20px 20px 150px;
+    }
+    .content{
+        flex-direction: column;
+        margin-top: 140px;
+    }
+    .content .textBox h2{
+        font-size: 2.5em;
+        margin-bottom: 15px;
+    }
+    .content .textBox{
+        max-width: 100%;
+    }
+    .content .textBox a{
+        margin-top: 30px;
+    }
+    .content .imgBox{
+        max-width: 100%;
+        justify-content: center;  
+    }
+    .content .imgBox img{
+    
+        
+    }
+    .thumb li img{
+        max-width: 40px;
+        margin-right:15px;
+       
+    }
+    .mtn{
+        width:700px;
+        height:70%;
+        margin-left:-100px;
+        margin-top:350px;
+
+       
+        clip-path: polygon(7% 72%, 29% 38%, 40% 51%, 70% 14%, 98% 72%);
+        background-position: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
