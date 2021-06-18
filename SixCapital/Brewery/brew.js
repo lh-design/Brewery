@@ -7,7 +7,7 @@ const menu = [
     price: 6.00,
     cprice: 11.00,
     img: "./images2/item-3.jpeg",
-    desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+    desc: `A crisp, clean German style Kolsch. Great choice with or without the distancing`,
   },
 
   {
@@ -18,7 +18,7 @@ const menu = [
     price: 6.00,
     cprice: 11.00,
     img: "./images2/item-6.jpeg",
-    desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+    desc: `New England style IPA brewed with Mosaic and Citra hops`,
   },
 
   {
